@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">     
+        <header class="header">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item  header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng f8-shop
+                            <div class="header__qrcode">
+                                <img src="./assets/img/QR_code.png" alt="QR code" class="header__qrcode-img">
+                                <div class="header__qrcode-apps">
+                                    <a href="" class="header__qrcode-download-link">
+                                        <img src="./assets/img/google_play.png" alt="Google Play" class="header__qrcode-download-img">
+                                    </a>
+                                    <a href="" class="header__qrcode-download-link">
+                                        <img src="./assets/img/appStore.png" alt="App Store" class="header__qrcode-download-img">
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">Kết nối</li>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fab fa-facebook"></i>
+                        </a>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fab fa-instagram"></i>
+                        </a>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-bell"></i>Thông báo</a>
+                                <div class="header__notify">
+                                    <header class="header__notify-header">
+                                        <h3>Thông báo mới nhận</h3>
+                                    </header>
+                                    <ul class="header__notify-list">
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="" class="header__notify-link">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf16e7RowUI5mVEP04kRWI3Ck2gGR2VxNRghuUAuyDxl9LfkwXJzmVL9ku3yKT7D0iQSU&usqp=CAU" alt="" class="header__notify-img">
+                                                <div class="header__notify-infor">
+                                                    <span class="header__notify-name">Mỹ phẩm Ohui chính hãng</span>
+                                                    <span class="header__notify-desc">Mô tả của mỹ phẩm Ohui chính hãng</span>
+                                                </div>
+                                                
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="" class="header__notify-link">
+                                                <img src="https://myphamohui.com/wp-content/uploads/2013/08/set-mini-ohui-the-first-5pcs-2-scaled-e1615795028195-500x500.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-infor">
+                                                    <span class="header__notify-name">Sale sốc bộ dưỡng Ohui The First tái tạo trẻ hoá làn da SALE OFF 70%</span>
+                                                    <span class="header__notify-desc">Giá chỉ còn 375.000 ngàn đồng(giá gốc 1.250.000 VNĐ)</span>
+                                                </div>
+                                                
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="" class="header__notify-link">
+                                                <img src="https://cf.shopee.vn/file/9b10079fccf8e32e7f7f0030ddbe0eda" alt="" class="header__notify-img">
+                                                <div class="header__notify-infor">
+                                                    <span class="header__notify-name">Son Lì Dưỡng Ẩm Ngăn Lão Hóa OHUI The First Geniture Lipstick 3.8g</span>
+                                                    <span class="header__notify-desc">Son OHUI The First Geniture Lipstick với màu sắc trẻ trung, phản xạ ánh sáng tốt, cùng khả năng dưỡng ẩm, duy trì màu liên tục</span>
+                                                </div>
+                                                
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <footer class="header__notify-footer">
+                                        <a href="" class="header__notify-footer-btn">xem tất cả</a>
+                                    </footer>
+                                </div>
+                        </li>
+                            
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link  ">
+                                <i class="header__navbar-icon far fa-question-circle"></i> Trợ giúp</a></li>
+
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong" >Đăng nhập</li> -->
+
+                        <!-- header navbar user -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="data:image/png;base64,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" alt="" class="header__navbar-user-avatar">
+                            <span class="header__navbar-user-name">Đức Khánh</span>
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    
+                    <label for="" class="left-sidebar-btn" onclick="toggleLeftSidebar()">
+                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                        
+                    </label>
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+
+                    <div class="header__logo hide-on-tablet">
+                        <a href="/" class="header__logo-link">
+                            <svg viewBox="0 0 192 65" class="header__logo-img">
+                                <g fill-rule="evenodd">
+                                    <path
+                                        d="M35.6717403 44.953764c-.3333497 2.7510509-2.0003116 4.9543414-4.5823845 6.0575984-1.4379707.6145919-3.36871.9463856-4.896954.8421628-2.3840266-.0911143-4.6237865-.6708937-6.6883352-1.7307424-.7375522-.3788551-1.8370513-1.1352759-2.6813095-1.8437757-.213839-.1790053-.239235-.2937577-.0977428-.4944671.0764015-.1151823.2172535-.3229831.5286218-.7791994.45158-.6616533.5079208-.7446018.5587128-.8221779.14448-.2217688.3792333-.2411091.6107855-.0588804.0243289.0189105.0243289.0189105.0426824.0333083.0379873.0294402.0379873.0294402.1276204.0990653.0907002.0706996.14448.1123887.166248.1287205 2.2265285 1.7438508 4.8196989 2.7495466 7.4376251 2.8501162 3.6423042-.0496401 6.2615109-1.6873341 6.7308041-4.2020035.5160305-2.7675977-1.6565047-5.1582742-5.9070334-6.4908212-1.329344-.4166762-4.6895175-1.7616869-5.3090528-2.1250697-2.9094471-1.7071043-4.2697358-3.9430584-4.0763845-6.7048539.296216-3.8283059 3.8501677-6.6835796 8.340785-6.702705 2.0082079-.004083 4.0121475.4132378 5.937338 1.2244562.6816382.2873109 1.8987274.9496089 2.3189359 1.2633517.2420093.1777159.2898136.384872.1510957.60836-.0774686.12958-.2055158.3350171-.4754821.7632974l-.0029878.0047276c-.3553311.5640922-.3664286.5817134-.447952.7136572-.140852.2144625-.3064598.2344475-.5604202.0732783-2.0600669-1.3839063-4.3437898-2.0801572-6.8554368-2.130442-3.126914.061889-5.4706057 1.9228561-5.6246892 4.4579402-.0409751 2.2896772 1.676352 3.9613243 5.3858811 5.2358503 7.529819 2.4196871 10.4113092 5.25648 9.869029 9.7292478M26.3725216 5.42669372c4.9022893 0 8.8982174 4.65220288 9.0851664 10.47578358H17.2875686c.186949-5.8235807 4.1828771-10.47578358 9.084953-10.47578358m25.370857 11.57065968c0-.6047069-.4870064-1.0948761-1.0875481-1.0948761h-11.77736c-.28896-7.68927544-5.7774923-13.82058185-12.5059489-13.82058185-6.7282432 0-12.2167755 6.13130641-12.5057355 13.82058185l-11.79421958.0002149c-.59136492.0107446-1.06748731.4968309-1.06748731 1.0946612 0 .0285807.00106706.0569465.00320118.0848825H.99995732l1.6812605 37.0613963c.00021341.1031483.00405483.2071562.01173767.3118087.00170729.0236381.003628.0470614.00554871.0704847l.00362801.0782207.00405483.004083c.25545428 2.5789222 2.12707837 4.6560709 4.67201764 4.7519129l.00576212.0055872h37.4122078c.0177132.0002149.0354264.0004298.0531396.0004298.0177132 0 .0354264-.0002149.0531396-.0004298h.0796027l.0017073-.0015043c2.589329-.0706995 4.6867431-2.1768587 4.9082648-4.787585l.0012805-.0012893.0017073-.0350275c.0021341-.0275062.0040548-.0547975.0057621-.0823037.0040548-.065757.0068292-.1312992.0078963-.1964115l1.8344904-37.207738h-.0012805c.001067-.0186956.0014939-.0376062.0014939-.0565167M176.465457 41.1518926c.720839-2.3512494 2.900423-3.9186779 5.443734-3.9186779 2.427686 0 4.739107 1.6486899 5.537598 3.9141989l.054826.1556978h-11.082664l.046506-.1512188zm13.50267 3.4063683c.014933.0006399.014933.0006399.036906.0008531.021973-.0002132.021973-.0002132.044372-.0008531.53055-.0243144.950595-.4766911.950595-1.0271786 0-.0266606-.000853-.0496953-.00256-.0865936.000427-.0068251.000427-.020262.000427-.0635588 0-5.1926268-4.070748-9.4007319-9.09145-9.4007319-5.020488 0-9.091235 4.2081051-9.091235 9.4007319 0 .3871116.022399.7731567.067838 1.1568557l.00256.0204753.01408.1013102c.250022 1.8683731 1.047233 3.5831812 2.306302 4.9708108-.00064-.0006399.00064.0006399.007253.0078915 1.396026 1.536289 3.291455 2.5833031 5.393601 2.9748936l.02752.0053321v-.0027727l.13653.0228215c.070186.0119439.144211.0236746.243409.039031 2.766879.332724 5.221231-.0661182 7.299484-1.1127057.511777-.2578611.971928-.5423827 1.37064-.8429007.128211-.0968312.243622-.1904632.34346-.2781231.051412-.0452164.092372-.083181.114131-.1051493.468898-.4830897.498124-.6543572.215249-1.0954297-.31146-.4956734-.586228-.9179769-.821744-1.2675504-.082345-.1224254-.154023-.2267215-.214396-.3133151-.033279-.0475624-.033279-.0475624-.054399-.0776356-.008319-.0117306-.008319-.0117306-.013866-.0191956l-.00256-.0038391c-.256208-.3188605-.431565-.3480805-.715933-.0970445-.030292.0268739-.131624.1051493-.14997.1245582-1.999321 1.775381-4.729508 2.3465571-7.455854 1.7760208-.507724-.1362888-.982595-.3094759-1.419919-.5184948-1.708127-.8565509-2.918343-2.3826022-3.267563-4.1490253l-.02752-.1394881h13.754612zM154.831964 41.1518926c.720831-2.3512494 2.900389-3.9186779 5.44367-3.9186779 2.427657 0 4.739052 1.6486899 5.537747 3.9141989l.054612.1556978h-11.082534l.046505-.1512188zm13.502512 3.4063683c.015146.0006399.015146.0006399.037118.0008531.02176-.0002132.02176-.0002132.044159-.0008531.530543-.0243144.950584-.4766911.950584-1.0271786 0-.0266606-.000854-.0496953-.00256-.0865936.000426-.0068251.000426-.020262.000426-.0635588 0-5.1926268-4.070699-9.4007319-9.091342-9.4007319-5.020217 0-9.091343 4.2081051-9.091343 9.4007319 0 .3871116.022826.7731567.068051 1.1568557l.00256.0204753.01408.1013102c.250019 1.8683731 1.04722 3.5831812 2.306274 4.9708108-.00064-.0006399.00064.0006399.007254.0078915 1.396009 1.536289 3.291417 2.5833031 5.393538 2.9748936l.027519.0053321v-.0027727l.136529.0228215c.070184.0119439.144209.0236746.243619.039031 2.766847.332724 5.22117-.0661182 7.299185-1.1127057.511771-.2578611.971917-.5423827 1.370624-.8429007.128209-.0968312.243619-.1904632.343456-.2781231.051412-.0452164.09237-.083181.11413-.1051493.468892-.4830897.498118-.6543572.215246-1.0954297-.311457-.4956734-.586221-.9179769-.821734-1.2675504-.082344-.1224254-.154022-.2267215-.21418-.3133151-.033492-.0475624-.033492-.0475624-.054612-.0776356-.008319-.0117306-.008319-.0117306-.013866-.0191956l-.002346-.0038391c-.256419-.3188605-.431774-.3480805-.716138-.0970445-.030292.0268739-.131623.1051493-.149969.1245582-1.999084 1.775381-4.729452 2.3465571-7.455767 1.7760208-.507717-.1362888-.982582-.3094759-1.419902-.5184948-1.708107-.8565509-2.918095-2.3826022-3.267311-4.1490253l-.027733-.1394881h13.754451zM138.32144123 49.7357905c-3.38129629 0-6.14681004-2.6808521-6.23169343-6.04042014v-.31621743c.08401943-3.35418649 2.85039714-6.03546919 6.23169343-6.03546919 3.44242097 0 6.23320537 2.7740599 6.23320537 6.1960534 0 3.42199346-2.7907844 6.19605336-6.23320537 6.19605336m.00172791-15.67913203c-2.21776751 0-4.33682838.7553485-6.03989586 2.140764l-.19352548.1573553V34.6208558c0-.4623792-.0993546-.56419733-.56740117-.56419733h-2.17651376c-.47409424 0-.56761716.09428403-.56761716.56419733v27.6400724c0 .4539841.10583425.5641973.56761716.5641973h2.17651376c.46351081 0 .56740117-.1078454.56740117-.5641973V50.734168l.19352548.1573553c1.70328347 1.3856307 3.82234434 2.1409792 6.03989586 2.1409792 5.27140956 0 9.54473746-4.2479474 9.54473746-9.48802964 0-5.239867-4.2733279-9.48781439-9.54473746-9.48781439M115.907646 49.5240292c-3.449458 0-6.245805-2.7496948-6.245805-6.1425854 0-3.3928907 2.79656-6.1427988 6.245805-6.1427988 3.448821 0 6.24538 2.7499081 6.24538 6.1427988 0 3.3926772-2.796346 6.1425854-6.24538 6.1425854m.001914-15.5438312c-5.28187 0-9.563025 4.2112903-9.563025 9.4059406 0 5.1944369 4.281155 9.4059406 9.563025 9.4059406 5.281657 0 9.562387-4.2115037 9.562387-9.4059406 0-5.1946503-4.280517-9.4059406-9.562387-9.4059406M94.5919049 34.1890939c-1.9281307 0-3.7938902.6198995-5.3417715 1.7656047l-.188189.1393105V23.2574169c0-.4254677-.1395825-.5643476-.5649971-.5643476h-2.2782698c-.4600414 0-.5652122.1100273-.5652122.5643476v29.2834155c0 .443339.1135587.5647782.5652122.5647782h2.2782698c.4226187 0 .5649971-.1457701.5649971-.5647782v-9.5648406c.023658-3.011002 2.4931278-5.4412923 5.5299605-5.4412923 3.0445753 0 5.516841 2.4421328 5.5297454 5.4630394v9.5430935c0 .4844647.0806524.5645628.5652122.5645628h2.2726775c.481764 0 .565212-.0824666.565212-.5645628v-9.5710848c-.018066-4.8280677-4.0440197-8.7806537-8.9328471-8.7806537M62.8459442 47.7938061l-.0053397.0081519c-.3248668.4921188-.4609221.6991347-.5369593.8179812-.2560916.3812097-.224267.551113.1668119.8816949.91266.7358184 2.0858968 1.508535 2.8774525 1.8955369 2.2023021 1.076912 4.5810275 1.646045 7.1017886 1.6975309 1.6283921.0821628 3.6734936-.3050536 5.1963734-.9842376 2.7569891-1.2298679 4.5131066-3.6269626 4.8208863-6.5794607.4985136-4.7841067-2.6143125-7.7747902-10.6321784-10.1849709l-.0021359-.0006435c-3.7356476-1.2047686-5.4904836-2.8064071-5.4911243-5.0426086.1099976-2.4715346 2.4015793-4.3179454 5.4932602-4.4331449 2.4904317.0062212 4.6923065.6675996 6.8557356 2.0598624.4562232.2767364.666607.2256796.9733188-.172263.035242-.0587797.1332787-.2012238.543367-.790093l.0012815-.0019308c.3829626-.5500403.5089793-.7336731.5403767-.7879478.258441-.4863266.2214903-.6738208-.244985-1.0046173-.459427-.3290803-1.7535544-1.0024722-2.4936356-1.2978721-2.0583439-.8211991-4.1863175-1.2199998-6.3042524-1.1788111-4.8198184.1046878-8.578747 3.2393171-8.8265087 7.3515337-.1572005 2.9703036 1.350301 5.3588174 4.5000778 7.124567.8829712.4661613 4.1115618 1.6865902 5.6184225 2.1278667 4.2847814 1.2547527 6.5186944 3.5630343 6.0571315 6.2864205-.4192725 2.4743234-3.0117991 4.1199394-6.6498372 4.2325647-2.6382344-.0549182-5.2963324-1.0217793-7.6043603-2.7562084-.0115337-.0083664-.0700567-.0519149-.1779185-.1323615-.1516472-.1130543-.1516472-.1130543-.1742875-.1300017-.4705335-.3247898-.7473431-.2977598-1.0346184.1302162-.0346012.0529875-.3919333.5963776-.5681431.8632459"
+                                    ></path>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <!-- Category-bars -->
+                   
+                    <input type="checkbox" hidden id="mobile-search-checkbox">
+                    <div class="header__search ">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                            
+                            <!-- search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href=""> Kem chống nắng</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem dưỡng da</a> 
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Sữu rửa mặt</a> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong shop</span>
+                            <i class="header__search-select-icon fas fa-angle-down"></i>
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong shop</span> 
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!-- cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">3</span>
+                            <!-- no has cart: header__cart-list--no-cart -->
+                            <div class="header__cart-list">
+                                <img src="./assets/img/no-cart.png" alt="" class="header__cart-list--no-cart-img">
+                                <span class="header__cart-list--no-cart-msg">
+                                    Chưa có sản phẩm
+                                </span>
+
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-item-img" src="https://abphotos.link/photos/resized/1024x/83-1580888419-myphamohui-lgvina.png" alt=" cart item image">
+                                        <div class="header__cart-item-infor">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc tri vùng mắt</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000 đ</span>
+                                                    <span class="header__cart-item-muliply">x</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại : bạc</span>
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-item-img" src="data:image/jpeg;base64,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">
+                                        <div class="header__cart-item-infor">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Set sữa rửa mặt ohui Prime</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000 đ</span>
+                                                    <span class="header__cart-item-muliply">x</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại : bạc</span>
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-item-img" src="data:image/jpeg;base64,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">
+                                        <div class="header__cart-item-infor">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ trang điểm dưỡng da  
+                                                </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000 đ</span>
+                                                    <span class="header__cart-item-muliply">x</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại : bạc</span>
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <a href="#" class="btn btn--primary header__cart-view-cart">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Liên quan</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link header__sort-link--active">Mới nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Bán chạy</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
+        </header>
+<!-- Sidebar menu for mobile and tablet -->
+        <div class="left-sidebar">
+            <ul class="left-sidebar-list">
+                <li class="left-sidebar-item">
+                    <a href="#" class="left-sidebar-item__link">
+                        <div class="left-sidebar-item__icon">
+                            <i class=" fa-solid fa-user"></i>                          
+                        </div>
+                        Quản lý tài khoản                     
+                    </a>                 
+                </li>
+                <li class="left-sidebar-item">
+                    <a href="#" class="left-sidebar-item__link">
+                        <div class="left-sidebar-item__icon">
+                            <i class=" far fa-bell"></i> 
+                        </div>
+                        Thông báo                     
+                    </a>               
+                </li>
+                <li class="left-sidebar-item">
+                    <a href="" class="left-sidebar-item__link">
+                        <div class="left-sidebar-item__icon">
+                            <i class="left-sidebar-item__icon far fa-question-circle"></i>                    
+                        </div>
+                        Trợ giúp                                        
+                    </a>
+                </li>
+                <li class="left-sidebar-item">
+                    <a href="" class="left-sidebar-item__link">
+                        <div class="left-sidebar-item__icon">
+                            <i class="left-sidebar-item__icon fa-solid fa-arrow-right-from-bracket"></i>    
+                        </div>
+                        Đăng xuất                               
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading">Danh mục</h3>
+            
+                            <ul class="category-list">
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Sắc đẹp</a>
+                                </li>
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Thời trang nam</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Thời trang nữ</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Điện thoại & phụ kiện</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Mẹ & bé</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Thiết bị điện tử</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <div class="col l-10 m-12 c-12">
+                        <!-- home filter -->
+                        <div class="home-filter hide-on-mobile-tablet ">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="btn home-filter__btn">Phổ biến</button>
+                            <button class="btn home-filter__btn">Mới nhất</button>
+                            <button class="btn home-filter__btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="fas fa-angle-down"></i>
+                                <!-- list option -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá : Thấp đến cao</a>                
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá : Cao đến thấp</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!-- home filter -->
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>
+                                    /
+                                    <span class="home-filter__page-total">14</span>
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="#" class="home-filter__page-btn home-filter__btn--disable">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="#" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>                          
+                        </div>
+
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Sắc đẹp</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Thời trang nam</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Thời trang nữ</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Điện thoại & phụ kiện</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Mẹ & bé</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Thiết bị điện tử</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <!-- home product -->
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <!-- product item -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvchpLD6xIxmZcuXT_5T4zm-uW8Zokf3tG_Q&usqp=CAU);"></div>
+                                        <div class="home-product-item__main">
+                                            <h4 class="home-product-item__name">Set dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang  </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty-icon far fa-heart"></i>
+                                                <i class="home-product-item__like-fill-icon fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item-sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__nation">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvchpLD6xIxmZcuXT_5T4zm-uW8Zokf3tG_Q&usqp=CAU);"></div>
+                                        <div class="home-product-item__main">
+                                            <h4 class="home-product-item__name">Set dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang  </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty-icon far fa-heart"></i>
+                                                <i class="home-product-item__like-fill-icon fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item-sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__nation">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvchpLD6xIxmZcuXT_5T4zm-uW8Zokf3tG_Q&usqp=CAU);"></div>
+                                        <div class="home-product-item__main">
+                                            <h4 class="home-product-item__name">Set dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang  </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty-icon far fa-heart"></i>
+                                                <i class="home-product-item__like-fill-icon fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item-sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__nation">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvchpLD6xIxmZcuXT_5T4zm-uW8Zokf3tG_Q&usqp=CAU);"></div>
+                                        <div class="home-product-item__main">
+                                            <h4 class="home-product-item__name">Set dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang  </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty-icon far fa-heart"></i>
+                                                <i class="home-product-item__like-fill-icon fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item-sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__nation">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvchpLD6xIxmZcuXT_5T4zm-uW8Zokf3tG_Q&usqp=CAU);"></div>
+                                        <div class="home-product-item__main">
+                                            <h4 class="home-product-item__name">Set dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang  </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty-icon far fa-heart"></i>
+                                                <i class="home-product-item__like-fill-icon fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item-sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__nation">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvchpLD6xIxmZcuXT_5T4zm-uW8Zokf3tG_Q&usqp=CAU);"></div>
+                                        <div class="home-product-item__main">
+                                            <h4 class="home-product-item__name">Set dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang  </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty-icon far fa-heart"></i>
+                                                <i class="home-product-item__like-fill-icon fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item-sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__nation">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvchpLD6xIxmZcuXT_5T4zm-uW8Zokf3tG_Q&usqp=CAU);"></div>
+                                        <div class="home-product-item__main">
+                                            <h4 class="home-product-item__name">Set dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang  </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty-icon far fa-heart"></i>
+                                                <i class="home-product-item__like-fill-icon fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item-sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__nation">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvchpLD6xIxmZcuXT_5T4zm-uW8Zokf3tG_Q&usqp=CAU);"></div>
+                                        <div class="home-product-item__main">
+                                            <h4 class="home-product-item__name">Set dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang  </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty-icon far fa-heart"></i>
+                                                <i class="home-product-item__like-fill-icon fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item-sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__nation">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvchpLD6xIxmZcuXT_5T4zm-uW8Zokf3tG_Q&usqp=CAU);"></div>
+                                        <div class="home-product-item__main">
+                                            <h4 class="home-product-item__name">Set dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang  </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty-icon far fa-heart"></i>
+                                                <i class="home-product-item__like-fill-icon fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item-sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__nation">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvchpLD6xIxmZcuXT_5T4zm-uW8Zokf3tG_Q&usqp=CAU);"></div>
+                                        <div class="home-product-item__main">
+                                            <h4 class="home-product-item__name">Set dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang  </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty-icon far fa-heart"></i>
+                                                <i class="home-product-item__like-fill-icon fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item-sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__nation">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- pagination -->
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link pagination-item__link--active">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">14</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+           <div class="grid wide">
+               <div class="row">
+                <div class="col l-2-4 m-4 c-6">
+                    <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">F8-Shop Mail</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-2-4 m-4 c-6">
+                    <h3 class="footer__heading">Giới thiệu</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Giới thiệu</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Tuyển dụng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Điều khoản</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-2-4 m-4 c-6">
+                    <h3 class="footer__heading">Danh mục</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trang điểm mặt</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trang điểm môi</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trang điểm mẳt</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="col l-2-4 m-4 c-6">
+                    <h3 class="footer__heading">Theo dõi</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-facebook"></i>
+                                Facebook</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-instagram"></i>
+                                Instagram</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-linkedin"></i>
+                                Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-2-4 m-8 c-12">
+                    <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                    <div class="footer__download">
+                        <img src="./assets/img/QR_code.png" alt="QR code download" class="footer__download-qr">
+                        <div class="footer__download-apps">
+                            <a href="" class="footer__download-apps-link">
+                                <img src="./assets/img/appStore.png" alt="Google Play" class="footer__download-apps-img">
+                            </a>
+                            <a href="" class="footer__download-apps-link">
+                                <img src="./assets/img/google_play.png" alt="app store" class="footer__download-apps-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>               
+               </div>
+               
+           </div>
+
+           <div class="footer-bottom">
+            <div class="grid wide">
+                <p class="footer__copyright">© 2022 F8 - Nền tảng học lập trình số 1 Việt Nam</p>
+            </div>
+        </div>
+        </footer>
+    </div>
+    
+    <!-- modal layout -->
+    
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">     
+             register form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__swich-btn">Đăng nhập</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy">
+                            Bằng việc đăng ký,bạn đã đồng ý với F8-shop về 
+                            <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> & 
+                            <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                        </p>
+                        
+                    </div>
+                    <div class="auth-form__control">
+                        <button class="btn auth-form__control-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials-facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square facebook-icon"></i>
+                        <span class="auth-form__social-title">
+                            Kết nối với facebook
+                        </span>
+                        
+                    </a>
+                    <a href="" class="btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__social-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            </div>   -->
+
+            <!-- login form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__swich-btn">Đăng ký</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                        </div>
+                        
+                    </div>
+                    <div class="auth-form__help">
+                        <a href="" class="auth-form__help-link">Quên mật khẩu</a>
+                        <span class="auth-form__help-separate"></span>
+                        <a href="" class="auth-form__help-link">Cần trợ giúp?</a>                
+                    </div>
+                    <div class="auth-form__control">
+                        <button class="btn auth-form__control-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials-facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square facebook-icon"></i>
+                        <span class="auth-form__social-title">
+                            Facebook
+                        </span>
+                        
+                    </a>
+                    <a href="" class="btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__social-title">
+                             Google
+                        </span>
+                    </a>
+                </div>
+            </div> 
+        </div>
+    </div> -->
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
